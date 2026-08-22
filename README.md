@@ -68,33 +68,7 @@ The working of the system is as follows:
 ---
 
 🧩 Block Diagram
-
-              ┌──────────────────┐
-              │   4×4 Keypad     │
-              └────────┬─────────┘
-                       │
-                       ▼
-              ┌──────────────────┐
-              │      STM32       │
-              │   Microcontroller│
-              └───────┬──────────┘
-                      │
-          ┌───────────┴───────────┐
-          │                       │
-          ▼                       ▼
- ┌─────────────────┐     ┌─────────────────┐
- │   I2C LCD       │     │   ULN2003       │
- │   Display       │     │   Driver        │
- └─────────────────┘     └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │ 28BYJ-48        │
-                         │ Stepper Motor   │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                              DOOR LOCK
+![password based door lock system](block diagram/block diagram.jpeg)
 
 ---
 
