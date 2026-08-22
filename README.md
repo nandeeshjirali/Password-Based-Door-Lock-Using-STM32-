@@ -68,7 +68,7 @@ The working of the system is as follows:
 ---
 
 🧩 Block Diagram
-![password based door lock system](block diagram/block diagram.jpeg)
+![Block Diagram](block%20diagram.jpeg)
 
 ---
 
