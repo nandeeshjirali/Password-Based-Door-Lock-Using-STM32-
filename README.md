@@ -78,39 +78,39 @@ The working of the system is as follows:
 
 Keypad| STM32
 <br>R1| PA0
-R2| PA1
-R3| PA2
-R4| PA3
-C1| PA4
-C2| PA5
-C3| PA6
-C4| PA7
+<br>R2| PA1
+<br>R3| PA2
+<br>R4| PA3
+<br>C1| PA4
+<br>C2| PA5
+<br>C3| PA6
+<br>C4| PA7
 
 I2C LCD
 
-LCD| STM32
-SDA| PB7
-SCL| PB6
-VCC| 5V
-GND| GND
+<br>LCD| STM32
+<br>SDA| PB7
+<br>SCL| PB6
+<br>VCC| 5V
+<br>GND| GND
 
 ULN2003 + Stepper Motor
 
-ULN2003| STM32
-IN1| PC0
-IN2| PC1
-IN3| PC2
-IN4| PC3
-GND| GND
+<br>ULN2003| STM32
+<br>IN1| PC0
+<br>IN2| PC1
+<br>IN3| PC2
+<br>IN4| PC3
+<br>GND| GND
 
 Connect the 28BYJ-48 stepper motor to the motor connector on the ULN2003 module.
 
 USB-to-TTL Converter
 
-USB-TTL| STM32
-TX| PA10 (RX)
-RX| PA9 (TX)
-GND| GND
+<br>USB-TTL| STM32
+<br>TX| PA10 (RX)
+<br>RX| PA9 (TX)
+<br>GND| GND
 
 Important: Make sure the USB-to-TTL converter uses the appropriate 3.3 V logic level for STM32 UART signals.
 
@@ -172,33 +172,9 @@ Connect the USB-to-TTL converter to the STM32 UART pins and upload the program.
 
 ---
 
-📂 Project Structure
 
-Password-Based-Door-Lock-STM32/
-│
-├── README.md
-│
-├── Password_Door_Lock/
-│   └── Password_Door_Lock.ino
-│
-├── Circuit/
-│   └── circuit_diagram.png
-│
-├── Images/
-│   ├── project_setup.jpg
-│   ├── circuit.jpg
-│   └── working.jpg
-│
-└── Documentation/
-    └── Project_Report.pdf
-
----
 
 📸 Project Images
-
-Add your project photographs to the "Images" folder and display them in the README.
-
-Example:
 
 ## Project Prototype
 
@@ -217,31 +193,31 @@ Circuit diagram:
 Correct Password
 
 Enter Password:
-****
-       ↓
-Access Granted
-       ↓
-Motor Rotates
-       ↓
-Door Unlocked
-       ↓
-Wait
-       ↓
-Motor Rotates Back
-       ↓
-Door Locked
+<br>****
+    <br>   ↓
+<br>Access Granted
+  <br>     ↓
+<br>Motor Rotates
+    <br>   ↓
+<br>Door Unlocked
+    <br>   ↓
+<br>Wait
+<br>       ↓
+<br>Motor Rotates Back
+ <br>      ↓
+<br>Door Locked
 
 Incorrect Password
 
 Enter Password
-      ↓
-Wrong Password
-      ↓
-Attempt Counter++
-      ↓
-3 Wrong Attempts
-      ↓
-System Lockout
+      <br>↓
+<br>Wrong Password
+    <br>  ↓
+<br>Attempt Counter++
+     <br> ↓
+<br>3 Wrong Attempts
+    <br>  ↓
+<br>System Lockout
 
 ---
 
