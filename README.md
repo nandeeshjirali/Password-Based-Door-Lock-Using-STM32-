@@ -77,47 +77,30 @@ The working of the system is as follows:
 4×4 Matrix Keypad
 
 Keypad| STM32
-
-R1| PA0
-
+<br>R1| PA0
 R2| PA1
-
 R3| PA2
-
 R4| PA3
-
 C1| PA4
-
 C2| PA5
-
 C3| PA6
-
 C4| PA7
 
 I2C LCD
 
 LCD| STM32
-
 SDA| PB7
-
 SCL| PB6
-
 VCC| 5V
-
 GND| GND
 
 ULN2003 + Stepper Motor
 
 ULN2003| STM32
-
 IN1| PC0
-
 IN2| PC1
-
 IN3| PC2
-
 IN4| PC3
-
 GND| GND
 
 Connect the 28BYJ-48 stepper motor to the motor connector on the ULN2003 module.
@@ -125,11 +108,8 @@ Connect the 28BYJ-48 stepper motor to the motor connector on the ULN2003 module.
 USB-to-TTL Converter
 
 USB-TTL| STM32
-
 TX| PA10 (RX)
-
 RX| PA9 (TX)
-
 GND| GND
 
 Important: Make sure the USB-to-TTL converter uses the appropriate 3.3 V logic level for STM32 UART signals.
