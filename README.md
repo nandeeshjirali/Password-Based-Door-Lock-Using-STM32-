@@ -178,7 +178,7 @@ Connect the USB-to-TTL converter to the STM32 UART pins and upload the program.
 
 ## Project Prototype
 
-![prototype](prototype%20.jpeg)
+![Project Prototype](prototype.jpeg)
 
 
 ---
